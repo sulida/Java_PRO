@@ -1,4 +1,4 @@
-package homeWorkJavaPro;
+package homeWorkJavaPro.hw310523;
 
 public class Person {
     String fullName;
