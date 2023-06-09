@@ -19,15 +19,16 @@ public class Phonetest {
 
         System.out.println("Phone number 1: " + phone1.number + ", Model: " + phone1.model + ", Weight: " + phone1.weight + ".");
         phone1.receiveCall("Fred");
-        System.out.println(phone1.getNumber(phone1.number));
+        System.out.println(phone1.getNumber());
 
         System.out.println("Phone number 2: " + phone2.number + ", Model: " + phone2.model + ", Weight: " + phone2.weight + ".");
         phone1.receiveCall("Fred");
-        System.out.println(phone2.getNumber(phone2.number));
+        System.out.println(phone2.getNumber());
 
         System.out.println("Phone number 3: " + phone3.number + ", Model: " + phone3.model + ", Weight: " + phone3.weight + ".");
         phone1.receiveCall("Fred");
-        System.out.println(phone3.getNumber(phone3.number));
+        System.out.println(phone3.getNumber());
+
 
 
 

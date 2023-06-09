@@ -1,6 +1,4 @@
-package task1;
-
-import task1.Dog;
+package lesson1.task1;
 
 public class DogTest {
     public static void main(String[] args) {
