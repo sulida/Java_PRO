@@ -9,13 +9,15 @@ public class Person {
     }
 
     public Person(String fullName, int age) {
+        this.fullName = fullName;
+        this.age = age;
 
     }
-    void move() {
-        System.out.println("Person moves");
+    public void move() {
+        System.out.println(fullName + " moves");
 
     }
-    void talk() {
-        System.out.println("Person talks");
+    public void talk() {
+        System.out.println(fullName + " talks");
     }
 }
